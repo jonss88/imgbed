@@ -1,0 +1,11 @@
+name = "imgbed"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "./"
+
+[[kv_namespaces]]
+binding = "img_kv"
+id = "0eaef16acbeb432d8a132110d8e07ec1" # 在 KV 页面复制那串长 ID
+
+[[r2_buckets]]
+binding = "img_r2"
+bucket_name = "img-r2-bucket" 
